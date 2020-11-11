@@ -231,7 +231,7 @@ function task6(){
 
     let allPrincess=[cinderella1,cinderella2,cinderella3,cinderella4,cinderella5,cinderella6,cinderella7,cinderella8,cinderella9,cinderella10];
 
-    let prince=new Prince('Phillip',18,37.5);
+    let prince=new Prince('Phillip',18,41);
     prince.FindMyCinderella(allPrincess);
 }
 
