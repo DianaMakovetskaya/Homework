@@ -1,11 +1,11 @@
-.slider-wrap{
+.slider-wrap,.slider-wrap2,.slider-wrap3{
     margin: auto;
     height: 300px;
     width: 1500px;
     background-color: red;
     position: relative;
 }
-.next2,.previous2{
+.next,.previous,.next2,.previous2,.next3,.previous3{
     color: cornsilk;
     position: absolute;
     top: 50%;
@@ -13,18 +13,45 @@
     font-weight: bold;
     padding: 16px;
 }
-.next2{
+.next,.previous,.next2,.previous2,.next3,.previous3:hover{
+    cursor: pointer;
+}
+
+.next,.next2,.next3{
     right: 0;
 }
-.previous2{
+.previous,.previous2,.previous3{
     left: 0;
 }
-.slider2{
-    height: 100%;
+.slider,.slider2,.slider3{
     width: 1500px;
+    height: 100%;
     display: flex;
     overflow: hidden;
 }
-.slider2 img{
+.slider img,.slider2 img,.slider3 img{
     height: 100%;
+    min-width: 500px;
+    opacity: 1;
+    transition: 1.5s;
 }
+
+.slider-wrap2,.slider-wrap3{
+    margin-top: 100px;
+}
+
+.dots{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    display: flex;
+}
+.dot1,.dot2{
+        color: white;
+        font-size: 40px;
+}
+.dot2{
+    color: gray;
+}
+
+
