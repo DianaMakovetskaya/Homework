@@ -1,0 +1,17 @@
+.typewriter{
+    height: 500px;
+    width: 500px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5XksLZ0rdqGBxTfjGGhLGnMzOoQ0iN48wkQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 23px;
+}
+
+#outputText{
+    margin-left: 138px;
+    height: 160px;
+    width: 260px;
+}
+

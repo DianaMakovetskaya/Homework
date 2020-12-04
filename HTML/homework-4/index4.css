@@ -1,0 +1,92 @@
+.top-menu,.low-menu{
+    display: flex;
+    justify-content: center;
+    margin: 0 -5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: red;
+}
+.item a,.item-low-menu a{
+    font-size: 18px;
+    font-weight: bold;
+}
+.item,.item-low-menu{
+    margin: 0 5px;
+}
+
+.text-item{
+    display: inline-block;
+}
+
+.center{
+
+    background-color: darkred;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.button-wrap {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.button-wrap span {
+    display: inline-block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -12.5px;
+    top: 50%;
+    margin-top: -2.5px;
+}
+
+.button-wrap span::before, .button-wrap span::after  {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.button-wrap span::before {
+    top: -10px;
+}
+
+.button-wrap span::after {
+    top: 10px;
+}
+
+.logo {
+    text-align: center;
+}
+.lang{
+    display: inline-block;
+}
+.club{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+
+.text1{padding-left: 40px;color: white;}
+.text2{
+    font-size: 30px;
+    color: white;
+}
+.text3,.lang,.club{color: white;}

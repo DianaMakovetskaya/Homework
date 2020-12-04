@@ -6,3 +6,32 @@
     width: 300px;
     margin-left: 339px;
 }
+li{
+    display: inline-block;
+    padding-right: 20px;
+}
+ul{
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+}
+.header{
+    background-color: lemonchiffon;
+    margin-top: 0;
+}
+img{
+    border-radius: 30px;
+}
+a{
+font-size: 20px;
+}
+a:hover{
+    cursor: pointer;
+    font-size: 30px;
+}
+li:hover{
+    color: red;
+}
+
+
+
