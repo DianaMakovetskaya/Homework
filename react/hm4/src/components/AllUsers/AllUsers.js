@@ -8,9 +8,10 @@ import {
     Link,
     withRouter
 } from "react-router-dom";
+import FullUser from "../UserComponent/FullUser";
 
 class AllUsers extends Component {
-    state={users:[],chosenOne:null}
+    state={users:[]}
     userService=new UserService();
 
     async componentDidMount() {
@@ -27,13 +28,13 @@ class AllUsers extends Component {
                     users.map((value, index) => <UserComponent user={value} key={index}/>)
                 }
                 <div className="nest">
-                    {
-                    }
-                    {/*<Switch>*/}
-                    {/*    <Route path={url+'/:id'} render={(props)=>{*/}
-                    {/*        let {match:{params:{id}}}=props;*/}
-                    {/*    }}></Route>*/}
-                    {/*</Switch>*/}
+
+                    <Switch>
+                        <Route path={url+'/:id'} render={(props)=>{
+                            let {match:{params:{id}}}=props;
+                           return <FullUser id={id} key={id}/>
+                        }}></Route>
+                    </Switch>
 
                 </div>
             </div>

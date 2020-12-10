@@ -8,8 +8,11 @@ import {
 } from "react-router-dom";
 
 class UserComponent extends Component {
+
     render() {
-        let {user,match:{url}}=this.props;
+
+        let {user}=this.props;
+        let {match:{url}}=this.props;
 
         return (
             <div>
