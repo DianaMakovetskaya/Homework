@@ -66,7 +66,7 @@ export default function App(){
 
 
 
-                state&&(
+                state && (
                     <><br/>
                     Name: {state.name}
                     <br/>
