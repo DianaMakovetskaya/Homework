@@ -1,0 +1,55 @@
+
+.orange{
+    background-color: orange;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.black{
+    width: 600px;
+    background-color: black;
+    padding: 4px 4px 4px 4px;
+}
+.clear{
+    clear: both;
+}
+.bg-blue{background-color: blue;}
+.bg-red{background-color: red;}
+.bg-green{background-color: green;}
+.bg-yellow{background-color: yellow;}
+
+.nav_item{
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+
+header,footer{
+    background-color: orange;
+    height: 50px;
+    clear: both;
+    width: 600px;
+                                                 /*uncomment below for method 3*/
+    /*right: 4px;*/
+}
+
+/*.black{*/
+/*    width: 600px;*/
+/*    background-color: black;*/
+/*    padding: 4px 4px 4px 4px;*/
+/*    position: relative;*/
+/*    height: 500px;*/
+/*}*/
+
+/*header{position: absolute;}*/
+/*footer{position: absolute;bottom: 4px;}*/
+
+/*.nav_item{*/
+/*    width: 150px;*/
+/*    height: 400px;*/
+/*    position: absolute;*/
+/*}*/
+
+/*.bg-blue{background-color: blue;left: 100%;}*/
+/*.bg-red{background-color: red;top: 54px;}*/
+/*.bg-green{background-color: green;left: 100%;}*/
+/*.bg-yellow{background-color: yellow;left: 100%;}*/
